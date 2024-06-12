@@ -1,0 +1,301 @@
+@charset "UTF-8";
+*{width: 44vw; margin: 0px; padding: 0px;}
+html,.bodyclass,header,main,footer
+/*entire header, main, footer section*/
+{
+    background-color: #303030;
+    background-repeat: no-repeat;
+}
+.feature/*for features block*/
+{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 200px;
+    top: 373px;
+}
+.contant/*for content block*/
+{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 200px;
+    top: 84px;
+}
+.help/*for help block*/
+{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 460px;
+    top: 116px;
+}
+.legal/*for legal block*/
+{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 460px;
+    bottom: 156px;
+}
+.copybear/*for copyright block*/
+{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 760px;
+    bottom: 275px;
+}
+.footerclass01/*entire legal, content, help section of 
+footer*/
+{
+    position: relative;
+    right: 100px;
+    color: grey;
+    bottom: 180px;
+}
+.footerclass07/*copyright section*/
+{
+    position: relative;
+    left: 610px;
+    bottom: 350px;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+.footerclass/*entire footer region*/
+{
+    position: relative;
+    top: -90px;
+    background-color: #303030;
+    height: 50px;
+}
+.footerclass02/*twitter svg icon*/
+{
+    position: relative;
+    left: 400px;
+    bottom: 180px;
+}
+.footerclass03/*discord svg icon*/
+{
+    position: relative;
+    left: 500px;
+    bottom: 210px;
+}
+.footerclass04/*reddit svg icon*/
+{
+    position: relative;
+    left: 595px;
+    bottom: 250px;
+}
+.icongroup/*all social media icons in footer*/
+{
+    position: relative;
+    left: -90px;
+    bottom: 110px;
+}
+a:Link/*for all links*/
+{
+    color: grey;
+    text-decoration: none;
+}
+a:Hover/*for all hovered text links*/
+{
+    color: chocolate;
+}
+.head/*Forumnet main heading*/
+{
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+    position: relative;
+    left: 95px;
+}
+.headerclass/*contains both forumnet heading and 
+graveyard heading, entire header region*/
+{
+    background-color: #303030;
+    position: relative;
+    left: 175px;
+}
+.graveyard/*graveyard heading*/
+{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+}
+.p1/*first para-group in about section*/
+{
+    color: grey;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 100px;
+    text-align: justify;
+    width: 400px;
+    height: 100px;
+}
+.about/*heading about*/
+{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+    position: relative;
+    left: 100px;
+}
+.about:hover
+{
+    animation: mymove 10s infinite;  
+}
+.aboutgroup
+{
+    position: relative;
+    left: 685px;
+    bottom: 70px;
+}
+.home
+{
+    position: relative;
+    left: 50px;
+    bottom: 11px;
+    color: grey;
+}
+.latest
+{
+    position: relative;
+    left: 100px; 
+    bottom: 22px;  
+    color: grey;
+}
+.articles
+{
+    position: relative;
+    left: 150px;
+    bottom: 33px;
+    color: grey;  
+}
+.media
+{
+    position: relative;
+    left: 203px;
+    bottom: 44px;
+    color: grey; 
+}
+.archives
+{
+    position: relative;
+    left: 250px;
+    bottom: 55px;  
+    color: grey;
+}
+.downloads
+{
+    position: relative;
+    left: 310px; 
+    bottom: 67px; 
+    color: grey;
+}
+.memlane
+{
+    position: relative;
+    left: 380px;
+    bottom: 78px; 
+    color: grey;
+}
+.logo
+{
+    position: relative;
+    left: 480px;
+    bottom: 89px; 
+    color: grey;
+}
+.pagenavbar
+{
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+}
+.windows
+{
+    position: relative;
+    left: 330px;
+    bottom: 33px;
+}
+.android
+{
+    position: relative;
+    left: 410px;
+    bottom: 79px;
+}
+.apple
+{
+    position: relative;
+    left: 490px;
+    bottom: 54px;
+}
+/*VVVIP: USE THIS ALWAYS! FOR IFRAMING YOUTUBE VIDEOS TO MANAGE LOSS OF ASPECT RATIO AND SIZING THE EMBEDDED VIDEO ON PAGE**************/
+iframe {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+}
+/*USE ASPECT RATIO CALCULATOR TO INITIALIZE A WIDTH FOR ANY CHOSEN HEIGHT********/
+.container
+{
+    height: 225px;
+    width: 400px;
+    position: relative;
+    bottom: 370px;
+    left: 275px;
+}
+.p2/*second para-group in about section*/
+{
+    color: grey;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    left: 100px;
+    text-align: justify;
+    width: 400px;
+    height: 100px;
+}
+.forum/*heading forum*/
+{
+    font-size: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: chocolate;
+    position: relative;
+    left: 100px;
+}
+.forum:hover
+{
+    animation: mymove 10s infinite;  
+}
+.forumgroup
+{
+    position: relative;
+    left: 685px;
+    top: 80px;
+}
+iframe {
+	aspect-ratio: 16 / 9;
+	height: 100%;
+	width: 100%;
+}
+.box
+{
+    height: 225px;
+    width: 400px;
+    position: relative;
+    bottom: 305px;
+    left: 275px;
+}
+@keyframes mymove {
+    from {left: 100px;}
+    to {left: 150px;}
+  }
