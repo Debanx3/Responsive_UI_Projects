@@ -1,5 +1,6 @@
 @charset "UTF-8";
-*{width: 44vw; margin: 0px; padding: 0px;}
+*{ margin: 0px; padding: 0px;}
+*::-webkit-scrollbar{display: none;}
 html,.bodyclass,header,main,footer
 /*entire header, main, footer section*/
 {
